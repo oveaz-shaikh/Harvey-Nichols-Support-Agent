@@ -1,0 +1,42 @@
+{
+  "source_file": "products.csv",
+  "rows": 20000,
+  "columns_original": 21,
+  "columns_enriched": 39,
+  "unique_product_ids": 20000,
+  "duplicate_product_ids": 0,
+  "duplicate_product_names": 5930,
+  "audience_counts": {
+    "women": 7326,
+    "men": 6279,
+    "unisex": 3982,
+    "unknown": 2325,
+    "kids": 88
+  },
+  "outfit_role_counts": {
+    "upperwear": 6563,
+    "footwear": 3335,
+    "lowerwear": 2065,
+    "accessory_review": 2031,
+    "excluded_from_outfits": 1909,
+    "accessory": 1492,
+    "one_piece": 1339,
+    "bag": 818,
+    "clothing_review": 447,
+    "unclassified": 1
+  },
+  "needs_review_count": 4729,
+  "missing_image_after_fallback": 5,
+  "giftable_count": 2952,
+  "gift_category_counts": {
+    "not_giftable": 17048,
+    "beauty_fragrance": 888,
+    "bag": 816,
+    "accessory": 790,
+    "jewellery": 361,
+    "gift_set": 68,
+    "home_gift": 29
+  },
+  "invalid_or_nonpositive_selling_prices": 0,
+  "policy": "Conservative rule-based metadata; uncertain audience remains unknown and is not eligible for gender-specific core outfit results."
+}

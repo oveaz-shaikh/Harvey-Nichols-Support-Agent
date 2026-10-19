@@ -1,0 +1,46 @@
+{
+  "rule_version": "catalogue-selection-v1.0",
+  "source_file": "products_clean.csv",
+  "source_rows": 20000,
+  "curated_rows": 4000,
+  "target_range": [
+    3000,
+    5000
+  ],
+  "target_size": 4000,
+  "unique_product_ids": 4000,
+  "duplicate_source_product_ids": 0,
+  "invalid_or_nonpositive_prices": 0,
+  "missing_or_invalid_image_urls": 0,
+  "audience_counts": {
+    "women": 1424,
+    "men": 1119,
+    "unisex": 806,
+    "unknown": 579,
+    "kids": 72
+  },
+  "category_counts": {
+    "Clothing": 1990,
+    "Accessories": 1263,
+    "Footwear": 747
+  },
+  "role_counts": {
+    "upperwear": 1056,
+    "footwear": 748,
+    "lowerwear": 594,
+    "accessory": 489,
+    "gift_item": 399,
+    "one_piece": 372,
+    "bag": 342
+  },
+  "giftable_count": 1024,
+  "review_status_count": 648,
+  "variant_rows": 10872,
+  "duplicate_variant_ids": 0,
+  "variant_product_refs_missing_from_master": 0,
+  "variant_parse_error_products_selected": 0,
+  "feedback_rows_initial": 0,
+  "stock_data_policy": "Availability and stock quantities are blank unless supplied by a trusted inventory feed.",
+  "product_fact_policy": "Material, description, care and country of manufacture are blank unless verified in source data.",
+  "selection_policy": "Quality-first, deterministic, stratified by normalized role and audience; unknown audience is not eligible for gender-specific core outfit results."
+}
